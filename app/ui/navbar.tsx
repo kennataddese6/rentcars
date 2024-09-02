@@ -10,8 +10,8 @@ export default function Navbar() {
     <>
       <header>
         <div className="subContainer py-xl-4 col-xl-10 mx-auto ">
-          <h5 className="mx-2 m-lg-0 d-flex justify-content-between">
-            <span className="m-xl-2 logo-label text-white">BrandName</span>
+          <h5 className="mx-2 m-lg-0 d-flex justify-content-between text-white">
+            L<span className="m-xl-2 logo-label text-white">Brand Name</span>
             <div className="menuContainer d-flex align-items-center d-xl-none">
               <div
                 className={`menu-icon ${showMenu ? "active" : ""}`}
@@ -31,17 +31,17 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="#" className="header-link">
-                Download
+                Cars
               </Link>
             </li>
             <li>
               <Link href="#" className="header-link">
-                Contact
+                About
               </Link>
             </li>
             <li>
-              <Link href="login" className="header-link">
-                Sign in
+              <Link href="#" className="header-link">
+                Search
               </Link>
             </li>
           </ul>
