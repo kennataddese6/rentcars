@@ -22,6 +22,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <h2 className="text-center text-white bg-black py-5">Best Collections</h2>
     </>
   );
 }
