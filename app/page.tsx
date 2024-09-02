@@ -9,11 +9,13 @@ export default function Home() {
         </video>
         <div className="hero-text-container">
           <h1 className="text-white text-center">
-            Leading car renters in Dubai
+            Explore Dubai in Style with Our Premium Cars
           </h1>
           <p className="text-white text-center">
-            Wa are the leading car renters in Dubai with the greatest Luxury
-            set. Come visit dubay to get the latest of our collection
+            Choose from a wide range of luxury, sports, and economy vehicles to
+            suit your needs. Enjoy competitive rates, flexible options, and
+            exceptional service. Book today and explore the city’s iconic
+            landmarks in style and comfort.
           </p>
           <button className="mx-auto d-block hero-button">Get started</button>
         </div>
