@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <header>
         <div className="subContainer py-xl-4 col-xl-10 mx-auto ">
-          <h6 className="mx-2 m-lg-0 d-flex justify-content-between">
+          <h5 className="mx-2 m-lg-0 d-flex justify-content-between">
             <span className="m-xl-2 logo-label text-white">BrandName</span>
             <div className="menuContainer d-flex align-items-center d-xl-none">
               <div
@@ -22,7 +22,7 @@ export default function Navbar() {
                 <div className="line line-3"></div>
               </div>
             </div>
-          </h6>
+          </h5>
           <ul className={showMenu ? "expanded" : ""}>
             <li>
               <Link href="/" className="header-link">
