@@ -1,10 +1,10 @@
-import Navbar from "./ui/navbar";
+import Navbar from './ui/navbar';
 export default function Home() {
   return (
     <>
       <Navbar />
       <div className="w-100 heroContainer">
-        <video autoPlay loop className="hero-video">
+        <video autoPlay loop muted className="hero-video">
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
         <div className="hero-text-container">
