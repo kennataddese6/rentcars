@@ -1,6 +1,7 @@
-"use client";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import { MdSearch } from 'react-icons/md';
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   const handlemenu = () => {
@@ -14,7 +15,7 @@ export default function Navbar() {
             L<span className="m-xl-2 logo-label text-white">Brand Name</span>
             <div className="menuContainer d-flex align-items-center d-xl-none">
               <div
-                className={`menu-icon ${showMenu ? "active" : ""}`}
+                className={`menu-icon ${showMenu ? 'active' : ''}`}
                 onClick={handlemenu}
               >
                 <div className="line line-1"></div>
@@ -23,7 +24,7 @@ export default function Navbar() {
               </div>
             </div>
           </h5>
-          <ul className={showMenu ? "expanded" : ""}>
+          <ul className={showMenu ? 'expanded' : ''}>
             <li>
               <Link href="/" className="header-link">
                 Home
@@ -41,7 +42,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="#" className="header-link">
-                Search
+                <MdSearch fontSize={24} />
               </Link>
             </li>
           </ul>
