@@ -126,6 +126,102 @@ export default function Home() {
           </p>
           <button className="order-button">Order Now</button>
         </div>
+        <div>
+          <Image
+            src={eqip4}
+            alt="product image"
+            width={250}
+            height={150}
+            className="productImage"
+          />
+          <h5 className="text-center bold-text m-1">Shenzhen</h5>
+          <p className="text-secondary text-center my-1 mx-2">
+            <small>
+              This is the best equiment now. Take it without hesitation
+            </small>
+          </p>
+          <p className="text-center m-1 bold-text">$699</p>
+          <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
+            <FaStar color="gold" />
+            <FaStar color="gold" />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </p>
+          <button className="order-button">Order Now</button>
+        </div>
+        <div>
+          <Image
+            src={eqip4}
+            alt="product image"
+            width={250}
+            height={150}
+            className="productImage"
+          />
+          <h5 className="text-center bold-text m-1">Shenzhen</h5>
+          <p className="text-secondary text-center my-1 mx-2">
+            <small>
+              This is the best equiment now. Take it without hesitation
+            </small>
+          </p>
+          <p className="text-center m-1 bold-text">$699</p>
+          <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
+            <FaStar color="gold" />
+            <FaStar color="gold" />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </p>
+          <button className="order-button">Order Now</button>
+        </div>
+        <div>
+          <Image
+            src={eqip4}
+            alt="product image"
+            width={250}
+            height={150}
+            className="productImage"
+          />
+          <h5 className="text-center bold-text m-1">Shenzhen</h5>
+          <p className="text-secondary text-center my-1 mx-2">
+            <small>
+              This is the best equiment now. Take it without hesitation
+            </small>
+          </p>
+          <p className="text-center m-1 bold-text">$699</p>
+          <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
+            <FaStar color="gold" />
+            <FaStar color="gold" />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </p>
+          <button className="order-button">Order Now</button>
+        </div>
+        <div>
+          <Image
+            src={eqip4}
+            alt="product image"
+            width={250}
+            height={150}
+            className="productImage"
+          />
+          <h5 className="text-center bold-text m-1">Shenzhen</h5>
+          <p className="text-secondary text-center my-1 mx-2">
+            <small>
+              This is the best equiment now. Take it without hesitation
+            </small>
+          </p>
+          <p className="text-center m-1 bold-text">$699</p>
+          <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
+            <FaStar color="gold" />
+            <FaStar color="gold" />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </p>
+          <button className="order-button">Order Now</button>
+        </div>
       </div>
     </>
   );
