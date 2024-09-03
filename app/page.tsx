@@ -298,7 +298,7 @@ export default function Home() {
             <FaStar color="gold" />
             <FaStar color="gold" />
             <FaStar color="gold" />
-            <FaStar />
+            <FaStar color="gold" />
           </p>
           <button className="order-button">Order Now</button>
         </div>
