@@ -148,9 +148,9 @@ export default function Home() {
           <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
             <FaStar color="gold" />
             <FaStar color="gold" />
-            <FaStar />
-            <FaStar />
-            <FaStar />
+            <FaStar color="gold" />
+            <FaStar color="gold" />
+            <FaStar color="gold" />
           </p>
           <button className="order-button">Order Now</button>
         </div>
@@ -196,7 +196,7 @@ export default function Home() {
           <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
             <FaStar color="gold" />
             <FaStar color="gold" />
-            <FaStar />
+            <FaStar color="gold" />
             <FaStar />
             <FaStar />
           </p>
@@ -220,8 +220,8 @@ export default function Home() {
           <p className="text-center  w-50 d-flex mx-auto justify-content-around px-2">
             <FaStar color="gold" />
             <FaStar color="gold" />
-            <FaStar />
-            <FaStar />
+            <FaStar color="gold" />
+            <FaStar color="gold" />
             <FaStar />
           </p>
           <button className="order-button">Order Now</button>
