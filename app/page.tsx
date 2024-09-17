@@ -1,18 +1,18 @@
-import Navbar from './ui/navbar';
-import { FaStar } from 'react-icons/fa';
-import Image from 'next/image';
-import eqip1 from '@/public/car.webp';
-import eqip2 from '@/public/car2.webp';
-import eqip3 from '@/public/car3.webp';
-import eqip4 from '@/public/car4.webp';
-import eqip5 from '@/public/car5.webp';
-import eqip6 from '@/public/car6.webp';
-import eqip7 from '@/public/car7.webp';
-import eqip8 from '@/public/car8.webp';
-import eqip9 from '@/public/car9.webp';
-import eqip10 from '@/public/car10.webp';
-import eqip11 from '@/public/car11.webp';
-import eqip12 from '@/public/car12.webp';
+import Navbar from "./ui/navbar";
+import { FaStar } from "react-icons/fa";
+import Image from "next/image";
+import eqip1 from "@/public/car.webp";
+import eqip2 from "@/public/car2.webp";
+import eqip3 from "@/public/car3.webp";
+import eqip4 from "@/public/car4.webp";
+import eqip5 from "@/public/car5.webp";
+import eqip6 from "@/public/car6.webp";
+import eqip7 from "@/public/car7.webp";
+import eqip8 from "@/public/car8.webp";
+import eqip9 from "@/public/car9.webp";
+import eqip10 from "@/public/car10.webp";
+import eqip11 from "@/public/car11.webp";
+import eqip12 from "@/public/car12.webp";
 export default function Home() {
   return (
     <>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       <h2 className="text-center text-white bg-black py-5">Best Collections</h2>
-      <div className="d-flex justify-content-around flex-wrap productsContainer">
+      <div className="d-flex justify-content-around flex-wrap productsContainer col-xxl-11 mx-xxl-auto">
         <div>
           <Image
             src={eqip1}
